@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Embed visualizer/builder for Niko bot on Discord!">
+    <meta name="theme-color" content="#4285f4">
+    <title>Embed Builder</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="builder" id="builder">
+
+            <input type="color" id="color">
+
+            <input type="text" placeholder="Plaintext" id="plaintext" class="plaintext">
+
+            <input type="url" placeholder="Icon URL" id="icon-url">
+
+            <input type="text" placeholder="Name" id="name">
+
+            <input type="text" placeholder="Thumbnail URL" id="thumbnail-url">
+
+            <input type="text" placeholder="Title" id="title">
+
+            <input type="text" placeholder="Description" id="description">
+
+            <input type="url" placeholder="Image URL" id="image-url">
+
+            <input type="text" placeholder="Footer Icon URL" id="footer-icon-url">
+
+            <input type="text" placeholder="Footer Text" id="footer-text">
+
+            <button onclick="submit()" id="submit">Get Code</button>
+
+        </div>
+    </div>
+    <div class="code" id="code">
+        <button class="copy" id="copy">Copy</button>
+        <textarea id="code-box" readonly></textarea>
+    </div>
+    </div>
+</body>
+
+</html>
