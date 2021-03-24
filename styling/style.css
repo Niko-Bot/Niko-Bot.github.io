@@ -25,6 +25,7 @@ body {
     border-radius: 5px;
 }
 .builder button {
+    max-width: 100%;
     border-width: 1px;
     border-color: white;
     float: right;
